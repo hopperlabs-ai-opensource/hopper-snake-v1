@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "hopper.source-edition.manifest.v1",
+  "edition": "free",
+  "repository": "hopperlabs-ai-opensource/hopper-snake-v1",
+  "visibility": "public",
+  "version": "v1",
+  "builtFrom": null,
+  "origin": {
+    "kind": "authored-source",
+    "statement": "Snake is authored source, not a Factory projection, so Factory's source-edition review state does not apply to it."
+  },
+  "license": {
+    "spdx": "MIT",
+    "status": "approved",
+    "decision": "D1 2026-10-03",
+    "note": "Decision D1: Snake v1 to v4 are MIT, decided under the owner's standing order to decide against the vision. The owner may revise D1 in the licence review."
+  },
+  "publication": {
+    "status": "approved",
+    "date": "2026-10-03",
+    "approval": "they can get the snake game and progression ... I want everything really published to those places including the snake video progression and then the better than jevzra comparison"
+  },
+  "dependencies": { "runtime": [], "build": [], "test": [], "note": "plain HTML, CSS and JavaScript; tests use Node's built-in test runner; nothing is installed or bundled" },
+  "tests": { "command": "node --test", "files": ["test/game.test.js"] },
+  "gates": ["node --test", "a sensitive-terms scan of the working tree, every reachable blob and every commit's author, committer, message and trailers, blocking 0, before the repository is made public"]
+}
